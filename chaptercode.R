@@ -74,7 +74,7 @@ ILRandNoiseAddition <- function(original){
 iLrand <- sapply((1:100) * 0.01, ILRandNoiseAddition(mdata)(10))
 
 # Plot iLrand
-plot(iLrand, ylim=c(0, 0.6), xlab="p/100")
+plot(iLrand, ylim=c(0, 0.6), xlab="p*100")
 
 
 ############### Advanced techniques for disclosure risk evaluation
